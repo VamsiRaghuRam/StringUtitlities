@@ -1,0 +1,15 @@
+[package]
+name = "StringUtilities"
+version = "1.0.0"
+authors = []
+
+[addresses]
+vamsi_addr="0x2b0684fbc8d2cc85dc478600805313cdbffa051d55cf5f1461b2eae6bc1ae97c"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
